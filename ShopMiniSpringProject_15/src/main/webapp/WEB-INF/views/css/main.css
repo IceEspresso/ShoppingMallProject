@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+/* common/top */
+.top {
+	text-align: center;
+	display: flex;
+	float: right;
+	margin: right;
+	font-size: 15px;
+}
+
+.top a{
+	margin: 0 1rem;
+}
+
+/* common/top end */
+/* common/menu */
+.gCategory {
+	text-align: center;
+	font-size: 15px;
+/* 	display: flex;
+	flex-direction:column; */
+	margin: 50px 10px 0 10px;
+	padding-right:10px;
+}
+.gCategory a {
+	display: inline-block;
+ 	padding: 10px 30px;
+ 	font-size: 25px;
+}
+
+/* common/menu  end*/
+/* main */
+.listLayout {
+	font-size: 15px;
+}
+.h1Title {
+	text-align: center;
+	font-size: 40px;
+}
+/* main end */
+
+/* goodsList  */
+.goodsList {
+	margin: auto;
+}
+
+.goodsList .goodsListTable {
+	align: center;
+	/* width: 710px; */
+	cellspacing: 0;
+	cellpadding: 0;
+}
+
+.entireTable td img {
+	display: block;
+	margin: auto;
+}
+/* goodsList end */
+
+
+/* loginForm  */
+.loginForm {
+}
+/* loginForm end */
+
+
+/* memberForm  */
+.memberAdd {
+	dispaly: inline-block;
+	
+}
+
+.guide {
+	color:#999;
+}
+.phone{
+	dispaly: inline-block;
+}
+.email {
+	dispaly: inline-block;
+}
+.email1 {
+	dispaly: inline-block;
+}
+.email2 {
+	dispaly: inline-block;
+}
+.email3 {
+	dispaly: inline-block;
+}
+
+/* memberForm end */
